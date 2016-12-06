@@ -30,6 +30,7 @@ header .navbar .navbar-brand,header .navbar .navbar-collapse .navbar-right li a{
     padding: 60px 0;
 }
 section.creamy{
+    padding: 30px 0;
     background:  #F4F0BB; 
     color: #DA2C38;
 }
@@ -41,6 +42,7 @@ section.about-creamy{
 section.iconos{
     background:  #F4F0BB; 
     color: #DA2C38;
+    padding: 30px 0;
 }
 .box-icono{
     font-size: 40px;
