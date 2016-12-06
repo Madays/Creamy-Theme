@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
 .background-hero{
     background: rgba(0,0,0,.5);
 }
@@ -17,10 +21,35 @@ header .container-fluid{
 header .navbar .navbar-brand,header .navbar .navbar-collapse .navbar-right li a{
     color: #F4F0BB;    
 }
+.navbar-collapse{
+    position: absolute;
+    right: 10px;
+    background: #DA2C38;    
+}
 .content-banner{
     padding: 60px 0;
 }
 section.creamy{
-    background: rgba(221, 195, 0, 0.32); 
+    background:  #F4F0BB; 
     color: #DA2C38;
+}
+section.about-creamy{
+    background: #DA2C38;
+    color: #F4F0BB;
+    padding-bottom: 30px;
+}
+section.iconos{
+    background:  #F4F0BB; 
+    color: #DA2C38;
+}
+.box-icono{
+    font-size: 40px;
+}
+footer{
+    background: #DA2C38;  
+    color: #F4F0BB;   
+}
+footer p{
+    margin: 0;
+    padding: 10px 0;
 }
