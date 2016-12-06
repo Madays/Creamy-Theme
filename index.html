@@ -7,67 +7,64 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/common-style.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/queries.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<body>   
     <div class="hero">
-            <header>
-                <!--header-->
-                <div class="container">
-                    <div class="row">
-                    <div class="col-xs-9 col-sm-4">
-                        <h1><a href="index.html">CreamyTheme</a></h1>
-                    </div>
-                    <div class="col-xs-3 col-sm-8">  
-                        <div class="text-right visible-xs">
-                            <button class="btn fa fa-bars " data-toggle="collapse" data-target="#main-navigation"></button>
-                        </div>   
-                        <nav class="hidden-xs">
-                            <ul class="desktop-menu list-inline text-right">
-                                <li class="menu__item"><a class="menu__link" href="#how-to">How to</a></li>
-                                <li class="menu__item"><a class="menu__link" href="#beauty">Beauty</a></li>
-                                <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>             
-                            </ul>
-                        </nav>                                          
-                    </div>
-                </div> 
-                    <nav class="visible-xs">
-                        <div id="main-navigation" class="collapse">
-                            <ul  class="mobile-menu text-right">
-                                <li class="menu__item"><a class="menu__link" href="#how-to">How to</a></li>
-                                <li class="menu__item"><a class="menu__link" href="#beauty">Beauty</a></li>
-                                <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>                   
-                </div>                 
-            </header>  
-            <section class="banner">
-                <img src="img/creamy.jpg" alt="imagen creamy">  
-                <div class="content-banner">    
+    <div class="background-hero">        
+    <header>       
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="fa fa-bars"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Creamy Theme</a>
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#how-to">How to</a></li>
+                <li><a href="#about-creamy">Beauty</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>           
+    </header> 
+        <section class="banner">
+                <!--<img src="img/creamy.jpg" alt="imagen creamy" class="img-responsive"> -->
+                <div class="content-banner text-center">    
                     <h1>Creamy Theme</h1>   
                     <p>The best theme</p>
                 </div> 
-            </section>      
-        </div>
-        <section class="creamy">
-           <div class="row">
-               <div class="col-xs-12 col-md-6">
+            </section>                  
+    </div>
+    </div>
+        <section class="creamy container-fluid" id="how-to">
+           <div class="row container">
+               <div class="col-xs-12 col-md-6 text-center">
                    <h2>Oh! So Creamy</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique aliquam maiores veniam magnam at numquam, explicabo recusandae cum, harum! Sequi debitis maiores, porro a unde vero dicta harum, nisi. Sint ipsa consequuntur necessitatibus explicabo natus voluptas consectetur soluta molestiae.</p>
                </div>
                <div class="col-xs-12 col-md-6">
-                   <img src="img/ice1.jpg" alt="image ice">
+                   <img src="img/ice1.jpg" alt="image ice" class="img-responsive">
                </div>
            </div>            
         </section>
-        <section class="about-creamy">
+        <section class="about-creamy" id="about-creamy">
             <h2>About Creamy</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, pariatur, veritatis? Amet hic saepe corporis, libero iure ut repellat nam, laboriosam illo voluptas voluptate perspiciatis dolorum. Amet ipsa fugit eos, commodi maxime. Ut assumenda maxime alias excepturi ad officiis distinctio.</p>
         </section>
-        <section class="iconos">
+        <section class="iconos" id="contact">
             <div class="row">
 	                <div class="col-xs-12 col-sm-3  text-center">
 	                    <div class="box-icono"><i class="fa fa-paper-plane"></i></div>

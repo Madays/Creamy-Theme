@@ -1,1 +1,26 @@
-/* Inserta tu código aquí */
+*{
+    box-sizing: border-box;
+}
+.background-hero{
+    background: rgba(0,0,0,.5);
+}
+.hero{
+    background-image: url("../img/creamy.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+}
+header .container-fluid{
+    background: #DA2C38;
+}
+header .navbar .navbar-brand,header .navbar .navbar-collapse .navbar-right li a{
+    color: #F4F0BB;    
+}
+.content-banner{
+    padding: 60px 0;
+}
+section.creamy{
+    background: rgba(221, 195, 0, 0.32); 
+    color: #DA2C38;
+}
