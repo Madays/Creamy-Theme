@@ -11,10 +11,6 @@ body{
     background: rgba(0,0,0,.5);
 }
 .hero{
-    /*background-image: url("../img/creamy.jpg");
-    background-size:cover;
-    background-position: center center;
-    background-attachment: fixed;*/
     color: #fff;
 }
 header .container-fluid{
@@ -32,7 +28,11 @@ header .navbar .navbar-brand,header .navbar .navbar-collapse .navbar-right li a{
     right: 10px;
     background: #DA2C38;    
 }
-.content-banner{
+.content-banner{  
+    background-image: url("../img/creamy.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
     padding: 0;
 }
 section.creamy{
